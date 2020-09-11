@@ -2,4 +2,4 @@ steps:
   - id: go_test
     name: 'gcr.io/cloud-builders/go'
     args: ['test','greeting']
-    env: ['PROJECT_ROOT=fullcycle-7-desafio-kubernetes-hpa', 'GOPATH=.']
+    env: ['PROJECT_ROOT=fullcycle-7-desafio-deploy-continuo', 'GOPATH=.']

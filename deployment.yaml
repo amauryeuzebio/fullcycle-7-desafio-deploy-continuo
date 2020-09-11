@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: go-hpa
-        image: urameshe/go-hpa
+        image: image-go-hpa
         ports:
           - containerPort: 8000
 
